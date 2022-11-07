@@ -59,7 +59,7 @@ medical record, patient and specialist information is stored in the smart contra
   
    <div align="center">
     
-  # you can see the log of your transactions towards the smart contract thanks to the Moralis Web3 API..
+  # you can see the log of your transactions towards the smart contract thanks to the Moralis Web3 API.
     
   </div>
   
