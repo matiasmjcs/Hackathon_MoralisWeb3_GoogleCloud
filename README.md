@@ -42,7 +42,7 @@ medical record, patient and specialist information is stored in the smart contra
   </div>
   <div align="center">
     
-  # you can consult for a medical record with an identification number.
+  # can query for a medical record with an identification number thanks to the Moralis Web API3.
     
   </div>
   <div align="center">
