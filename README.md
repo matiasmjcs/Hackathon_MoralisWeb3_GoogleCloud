@@ -42,7 +42,7 @@ medical record, patient and specialist information is stored in the smart contra
   </div>
   <div align="center">
     
-  # can query for a medical record with an identification number thanks to the Moralis Web API3.
+  # you can look up a medical record with an identification number .
     
   </div>
   <div align="center">
@@ -55,6 +55,16 @@ medical record, patient and specialist information is stored in the smart contra
   </div>
   <div align="center">
     <img src='./frontend/src/img/imgPdf.png' height=350 />
+  </div>
+  
+   <div align="center">
+    
+  # you can see the log of your transactions towards the smart contract thanks to the Moralis Web3 API..
+    
+  </div>
+  
+  <div align="center">
+    <img src='./frontend/src/img/img7.png' height=350 />
   </div>
 
 <div align="center">
