@@ -40,15 +40,15 @@ medical record, patient and specialist information is stored in the smart contra
   <div align="center">
     <img src='./frontend/src/img/MedicalCenter3.png' height=350 />
   </div>
-  
+  <div align="center">
   # you can consult for a medical record with an identification number.
-  
+  </div>
   <div align="center">
     <img src='./frontend/src/img/img8.png' height=350 />
   </div>
-  
+  <div align="center">
   # you can also download your medical record in PDF format.
-  
+  </div>
   <div align="center">
     <img src='./frontend/src/img/imgPdf.png' height=350 />
   </div>
