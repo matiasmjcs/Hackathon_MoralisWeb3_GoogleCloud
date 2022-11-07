@@ -1,0 +1,64 @@
+.mainCenter {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  min-height: 600px;
+  color: #555;
+  font-size: 20px;
+}
+
+.mainCenter__div {
+  width: 60%;
+  height: 350px;
+  border-left: 10px solid #2d6b91;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  background: white;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  transition: all 0.2s;
+  margin-bottom: 100px;
+}
+
+.mainCenter__div:hover {
+  box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, 0.2);
+}
+
+.mainCenter__div-button {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media screen and (min-width: 300px) {
+  .mainCenter__div-button {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 750px) {
+  .mainCenter__div-button {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+.mainCenter__button1 {
+  margin: 10px;
+  background: #2d6b91;
+  color: #fff;
+}
+
+.mainCenter__nav {
+  text-decoration: none;
+}
+
+.mainCenter__button2 {
+  margin: 10px;
+  box-shadow: none;
+}
+
+.mainCenter__h3 {
+  text-align: center;
+}/*# sourceMappingURL=center.css.map */

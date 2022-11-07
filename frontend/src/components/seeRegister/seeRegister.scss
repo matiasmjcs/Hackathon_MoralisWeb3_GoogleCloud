@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+$color1: #2d6b91;
+
+
+$breackpoints: (
+    sm:300px,
+    md:750px,
+    lg:1024px
+);
+
+@mixin media-up($breackpoint) {
+    @media screen and (min-width: map-get($breackpoints, $breackpoint)) {
+        @content;
+    }
+}
+
+.registerDiv {
+    align-content: center;
+}
+
+.mainSpecialist--2 {
+    overflow: hidden;
+}
+
+.atencion {
+    list-style: none;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    place-items: center;
+    gap: 15px;
+    overflow-y: scroll;
+    height: 700px;
+    width: 100%;
+    padding: 0;
+
+    @include media-up(sm) {
+        grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    }
+         @include media-up(lg) {
+            grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+         }
+}
+
+.atencion h3 {
+  
+    @include media-up(lg) {
+        grid-column: 1/3;
+        }
+}
+
+.form-atencion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+
+.registerDiv__formMedical--2 {
+    align-self: center;
+    align-items: initial;
+    justify-items: center;
+}
+
+.registerDiv__divForm {
+    gap: 20px;
+}
+
+.atencion li {
+    position: relative;
+    overflow: scroll;
+}
+
+.registerDiv__li {
+    width: 80%;
+    height: 60px;
+}
+
+.registerDiv__li--scroll {
+    overflow-X: scroll;
+    overflow-Y: none;
+}
+
+.inactive {
+    display: none;
+}

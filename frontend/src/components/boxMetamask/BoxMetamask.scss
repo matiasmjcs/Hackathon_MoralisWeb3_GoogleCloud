@@ -1,0 +1,34 @@
+.registerDiv__formMedical2 {
+    border-radius: 10px;
+    border: .5px solid #2d6b91;
+}
+
+.registerDiv__buttonMetamask {
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    border:none;
+    color:white;
+    background: transparent;
+    transition: all .2s;
+}
+
+.registerDiv__buttonMetamask:hover {
+    box-shadow: none;
+}
+
+.registerDiv__buttonMetamask--M {
+    width: 70px;
+     height: 70px;
+     cursor: pointer;
+}
+
+.registerDiv__buttonMetamask--M {
+    animation: none;
+    transition: all .2s;
+}
+
+.registerDiv__buttonMetamask--M:hover {
+    width: 75px;
+    height: 75px;
+}

@@ -1,0 +1,21 @@
+$breackpoints: (
+    sm:540px,
+    md:750px,
+    lg:1024px
+);
+
+@mixin media-up($breackpoint) {
+    @media screen and (min-width: map-get($breackpoints, $breackpoint)) {
+        @content;
+    }
+}
+
+body, html, #root {
+    width: 100%;
+    height: 100%;
+    
+}
+
+// .App {
+//     display: grid;
+// }

@@ -1,0 +1,43 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ $color1: #2d6b91;
+
+
+ $breackpoints: (
+     sm:300px,
+     md:750px,
+     lg:1024px
+ );
+
+ @mixin media-up($breackpoint) {
+     @media screen and (min-width: map-get($breackpoints, $breackpoint)) {
+         @content;
+     }
+ }
+ 
+ .atencion2 {
+        list-style: none;
+            position: relative;
+            display: grid;
+            place-items: center;
+            gap: 15px;
+            overflow-y: scroll;
+            height: 700px;
+            padding: 0;
+        
+            @include media-up(sm) {
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+            }
+        
+            @include media-up(lg) {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+            }
+ }
+ 
+ .atencion2 h3 {
+
+     @include media-up(lg) {
+         grid-column: 1/3;
+     }
+ }

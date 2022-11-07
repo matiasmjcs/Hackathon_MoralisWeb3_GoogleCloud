@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.card {
+  cursor: pointer;
+  width: 250px;
+  height: 290px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 255, 0.2);
+  transition: all 0.2s;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  position: absolute;
+  right: 50px;
+  top: 88px;
+  color: black;
+  display: grid;
+  font-family: "Roboto", sans-serif;
+  -webkit-animation: card 0.2s linear 1;
+          animation: card 0.2s linear 1;
+}
+
+@-webkit-keyframes card {
+  from {
+    transform: translateX(300px);
+  }
+  to {
+    transform: translateX();
+  }
+}
+
+@keyframes card {
+  from {
+    transform: translateX(300px);
+  }
+  to {
+    transform: translateX();
+  }
+}
+.card:hover {
+  box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, 0.2);
+}
+
+.card__button1 {
+  margin: 10px;
+  width: 80px;
+  height: 40px;
+}
+
+.card__button2 {
+  color: rgb(190, 39, 39);
+  border: solid 1px rgb(190, 39, 39);
+  margin: 10px;
+  width: 80px;
+}
+
+.containerButton {
+  display: flex;
+  justify-self: center;
+}
+
+.metamask {
+  -webkit-animation: none;
+          animation: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card__containerBalance {
+  display: grid;
+  justify-items: center;
+}
+
+.card__spanAccounts {
+  overflow: hidden;
+  width: 80%;
+}
+
+.card__span {
+  text-align: center;
+}
+
+.blue {
+  color: #2d6b91;
+}/*# sourceMappingURL=card.css.map */

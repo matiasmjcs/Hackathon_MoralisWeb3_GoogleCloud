@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.atencion2 {
+  list-style: none;
+  position: relative;
+  display: grid;
+  place-items: center;
+  gap: 15px;
+  overflow-y: scroll;
+  height: 700px;
+  padding: 0;
+}
+@media screen and (min-width: 300px) {
+  .atencion2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .atencion2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .atencion2 h3 {
+    grid-column: 1/3;
+  }
+}/*# sourceMappingURL=seeSpecialist.css.map */

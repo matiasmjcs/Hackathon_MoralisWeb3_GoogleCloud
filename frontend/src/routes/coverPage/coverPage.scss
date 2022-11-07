@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Trispace&display=swap');
+$color1: #090909;
+
+$breackpoints: (
+    sm:300px,
+    md:750px,
+    lg:1024px
+);
+
+@mixin media-up($breackpoint) {
+    @media screen and (min-width: map-get($breackpoints, $breackpoint)) {
+        @content;
+    }
+}
+
+.main-welcome {
+    display: grid;
+    grid-template-rows: .8fr 2fr;
+    width: 100%;
+    font-family: 'Space Grotesk', sans-serif;
+    @include media-up(md) {
+        // align-items: center;
+        // height: 500px;
+    }
+}
+
+.main-welcome__section1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    height: 600px;
+
+    @include media-up(sm) {
+            height: 600px;
+        }
+
+    @include media-up(md) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+        @include media-up(lg) {
+            height: 500px;
+        }
+
+}
+
+.main-welcome__articulo1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr .5fr;
+    width: 100%;
+    height: 100%;
+    color: $color1;
+    background: white;
+
+    @include media-up(sm) {
+            margin-top: 50px;
+        }
+
+    @include media-up(md) {
+        align-items: center;
+        margin-top: 0px;
+    }
+}
+
+.main-welcome__articulo1--what {
+    display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        height: 100%;
+        color: $color1;
+        background: white;
+    
+        @include media-up(md) {
+            align-items: center;
+        }
+}
+
+.main-welcome__divButton {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-welcome__titulo {
+    justify-self: center;
+    animation: letter .5s linear 1;
+    font-size: 30px;
+    font-family: 'Trispace', sans-serif;
+    letter-spacing: 1px;
+
+    @include media-up(md) {
+        align-self: end;
+    }
+
+}
+
+.main-welcome__titulo--big {
+    font-size: 70px;
+    color: #2d6b91;
+}
+
+.main-welcome__parrafo {
+    justify-self: center;
+    margin: 30px;
+
+    @include media-up(md) {
+        align-self: start;
+    }
+}
+
+.main-welcome__button1 {
+    background: #2d6b91;
+    font-size: 18px;
+    border-radius: 0.5em;
+    color: #ffffff;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    letter-spacing: .5px;
+    overflow: hidden;
+    padding: 0;
+    text-decoration: none;
+    display: grid;
+    place-items: center;
+
+    @include media-up(md) {
+        justify-self: center;
+        align-self: end;
+        margin: 0px;
+    }
+        @include media-up(sm) {
+        margin: 0;
+    
+        }
+}
+
+.main-welcome__button1:hover {
+    color: #f1c00c;
+    background-color: white;
+}
+
+.main-welcome__button2 {
+    justify-self: start;
+
+    @include media-up(md) {
+        justify-self: center;
+        align-self: start;
+        margin-top: 10px;
+
+    }
+
+         @include media-up(sm) {
+        margin-top: 10px;
+        margin: 10px;
+    
+         }
+
+                 @include media-up(lg) {
+                     margin: 10px;
+        
+                 }
+    
+}
+
+.main-welcome__articulo2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    justify-items: center;
+
+    @include media-up(md) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-self: center;
+    }
+}
+
+.main-welcome__articulo--img {
+    display: grid;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    
+        @include media-up(md) {
+            justify-self: center;
+        }
+}
+
+@keyframes letter {
+    0% {
+        transform: translateY(-200px);
+    }
+
+    100% {
+        transform: translateY(0px);
+
+    }
+}
+
+.main-welcome__start {
+    text-align: center;
+}
+
+
+.main-welcome__section2 {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.main-welcome__articulo1--what{
+    display: grid;
+    @include media-up(sm) {
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr;
+        height: 650px;
+        }
+     @include media-up(md) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        height: 550px;
+     }
+}
+
+.icon1 {
+    animation: none;
+    place-self: center;
+    @include media-up(sm) {
+            width: 200px;
+            height: 200px;
+        }
+    
+        @include media-up(md) {
+            width: 250px;
+            height: 250px;
+        }
+       @include media-up(lg) {
+              width: 300px;
+              height: 300px;
+       }
+}
+
+.main-welcome__whatDiv {
+    padding: 50px;
+}
+
+.icon2 {
+    place-self: center;
+        @include media-up(sm) {
+             width: 200px;
+             height: 200px;
+            }
+         @include media-up(md) {
+            width: 250px;
+            height: 250px;
+         }
+         @include media-up(lg) {
+             width: 300px;
+             height: 300px;
+            }
+}
+
+.icon3 {
+    place-self: center;
+}
+
+.main-welcome__container-img {
+    width: 300px;
+    height: 300px;
+}
+
+.main-welcome__container-img img {
+    margin-top: 70px;
+    width: 100%;
+    height: 100%;
+}
+
+.titleOne {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.titleOne::first-letter {
+    color: #2d6b91;
+    font-size: 50px;
+}

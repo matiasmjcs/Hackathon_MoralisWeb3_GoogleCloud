@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.atenciones4 {
+  list-style: none;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow-Y: scroll;
+  gap: 10px;
+  height: 700px;
+  width: 100%;
+  padding: 0;
+}
+@media screen and (min-width: 300px) {
+  .atenciones4 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .atenciones4 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .atencion4 h3 {
+    grid-column: 1/2;
+  }
+}
+
+.registerDiv__li2 {
+  overflow-x: scroll;
+  width: 80%;
+}/*# sourceMappingURL=seeAttentions.css.map */

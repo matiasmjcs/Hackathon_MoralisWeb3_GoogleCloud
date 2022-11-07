@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Roboto:wght@300&display=swap');$color1: #2d6b91;
+
+$breackpoints: (
+    sm:300px,
+    sm2:430px,
+    md:750px,
+    lg:1024px
+);
+
+@mixin media-up($breackpoint) {
+    @media screen and (min-width: map-get($breackpoints, $breackpoint)) {
+        @content;
+    }
+}
+.registerDiv {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .4);
+    position: fixed;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.registrarEspecialista {
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    @include media-up(sm) {
+    width: 80%;
+    height: 500px ;
+    align-items: center;
+        }
+     @include media-up(md) {
+        width: 60%;
+
+         height: 500px;
+    }
+                               
+}
+
+.registrarEspecialista .spinner2 {
+    position: fixed;
+    top: 45%;
+    left: 48%;
+    @include media-up(sm) {
+            left:45%;
+        }
+     @include media-up(sm2) {
+       left: 48%;
+     }
+}
+
+.registrarEspecialista:hover {
+    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+}
+
+.registerDiv__divForm{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.registerDiv__divInput {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    // grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.registerDiv__button {
+    margin: 10px;
+    height: auto;
+    min-height: 40px;
+
+}
+
+.label {
+    margin: 0;
+    margin-top: 10px;
+    justify-self: start;
+    font-weight: 400;
+}

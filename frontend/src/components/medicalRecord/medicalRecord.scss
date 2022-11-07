@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+$color1: #2d6b91;
+
+$breackpoints: (
+    sm:300px,
+    sm2:430px,
+    md:750px,
+    lg:1024px
+);
+
+@mixin media-up($breackpoint) {
+    @media screen and (min-width: map-get($breackpoints, $breackpoint)) {
+        @content;
+    }
+}
+
+
+.registerDiv {
+    width: 100vw;
+        height: 100vh;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, .4);
+        position: fixed;
+        top: 0;
+        font-family: 'Montserrat', sans-serif;
+}
+.registerDiv__formMedical {
+        width: 80%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        background: #fff;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    
+        @include media-up(sm) {
+            width: 80%;
+            height: 500px;
+        }
+    
+        @include media-up(md) {
+            width: 60%;
+    
+            height: 500px;
+        }
+}
+
+.registerDiv__formMedical:hover {
+    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+}
+
+.registerDiv__formMedical input {
+    width: 90%;
+}
+
+.registerDiv__divForm2 {
+    display: grid;
+    width: 80%;
+    @include media-up(sm) {
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+                grid-template-columns: 1fr;
+        }
+         @include media-up(md) {
+            grid-template-rows: 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr;
+         }
+}
+
+.registerDiv__divInput2 {
+    display: grid;
+    place-items: center;
+}
+
+.registerDiv__divInput--2 {
+    display: grid;
+    @include media-up(sm) {
+            grid-template-rows: 1fr;
+            grid-template-columns: .8fr 1.2fr;
+        }
+    
+        @include media-up(md) {
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr;
+        }
+}
