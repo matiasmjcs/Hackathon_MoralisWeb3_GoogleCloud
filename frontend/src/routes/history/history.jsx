@@ -23,7 +23,7 @@ const History = () => {
         }
       };
 
-      const res = await fetch('https://deep-index.moralis.io/api/v2/0x2891BA44A9105C0F66b514A3655deef3587d70fC?chain=0x61', options);
+      const res = await fetch('https://deep-index.moralis.io/api/v2/0xeA0C4563AC1f33dC1866E9520229fc0a3B1b950D?chain=0x61', options);
       const data = await res.json();
       const resultado = data.result
       const filter = resultado.filter(results => results.from_address === currentAccount)

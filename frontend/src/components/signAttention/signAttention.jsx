@@ -14,7 +14,7 @@ const SignAttention = ({close}) => {
     const { active } = useContext(UserContext)
 
     // direccion del contrato
-    const address = "0x2891BA44A9105C0F66b514A3655deef3587d70fC";
+    const address = "0xeA0C4563AC1f33dC1866E9520229fc0a3B1b950D";
     // abi
     const abi = Abi.abi;
 
