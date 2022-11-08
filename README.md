@@ -1,6 +1,16 @@
+ <div align="center">
+    <img src='./frontend/src/img/imgMoralis.png' height=350 />
+  </div>
+  
+  <div align="center">
+    
+ # project for Moralis web3 hackathon and Google Cloud year 2022
+    
+  </div>
+
 <div align="center">
     <img src='./frontend/src/img/MedicalCenter1.png' height=350 />
-    <a align="center" href="" target="_blank">
+     <a align="center" href="" target="_blank">
        <h1 align="center">Medical Center</h1>
     </a>
   <p>
@@ -36,7 +46,15 @@ medical record, patient and specialist information is stored in the smart contra
   <div align="center">
     <img src='./frontend/src/img/MedicalCenter2.png' height=350 />
   </div>
- 
+  
+  
+  <div align="center">
+  
+  # you can register as a specialist and as a patient
+  
+  you can also view the profile of a specialist or patient by their address. 
+  </div>
+  
   <div align="center">
     <img src='./frontend/src/img/MedicalCenter3.png' height=350 />
   </div>
@@ -69,7 +87,7 @@ medical record, patient and specialist information is stored in the smart contra
 
 <div align="center">
 
-# stack
+# technologies used
 
 javaScript, solidity, hardhat, ethers.js ,Bsc testnet, React.js, Sass, Moralis Web3, npm, Node.js, fortawesome, web3uikit, jspdf, sweetalert2
 
