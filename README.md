@@ -92,3 +92,13 @@ medical record, patient and specialist information is stored in the smart contra
 javaScript, solidity, hardhat, ethers.js ,Bsc testnet, React.js, Sass, Moralis Web3, npm, Node.js, fortawesome, web3uikit, jspdf, sweetalert2
 
 </div>
+
+<div align="center">
+
+# ⭐⭐⭐mentions⭐⭐⭐
+
+this project had a great progress thanks to the workshops and videos made by Moralis Web3 people during the hackathon period.
+
+</div>
+
+
