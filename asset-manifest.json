@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Hackathon_MoralisWeb3_GoogleCloud/static/css/main.8389dcd3.css",
+    "main.js": "/Hackathon_MoralisWeb3_GoogleCloud/static/js/main.9d70b305.js",
+    "static/js/498.26de99d1.chunk.js": "/Hackathon_MoralisWeb3_GoogleCloud/static/js/498.26de99d1.chunk.js",
+    "static/js/703.73940452.chunk.js": "/Hackathon_MoralisWeb3_GoogleCloud/static/js/703.73940452.chunk.js",
+    "static/js/513.8827faaf.chunk.js": "/Hackathon_MoralisWeb3_GoogleCloud/static/js/513.8827faaf.chunk.js",
+    "static/media/img2.png": "/Hackathon_MoralisWeb3_GoogleCloud/static/media/img2.f0b1b60224d1f753f5a4.png",
+    "static/media/img4.png": "/Hackathon_MoralisWeb3_GoogleCloud/static/media/img4.3d776b127ac6c8eaf58c.png",
+    "static/media/img5.png": "/Hackathon_MoralisWeb3_GoogleCloud/static/media/img5.093342a6d44d892c30dc.png",
+    "index.html": "/Hackathon_MoralisWeb3_GoogleCloud/index.html",
+    "main.8389dcd3.css.map": "/Hackathon_MoralisWeb3_GoogleCloud/static/css/main.8389dcd3.css.map",
+    "main.9d70b305.js.map": "/Hackathon_MoralisWeb3_GoogleCloud/static/js/main.9d70b305.js.map",
+    "498.26de99d1.chunk.js.map": "/Hackathon_MoralisWeb3_GoogleCloud/static/js/498.26de99d1.chunk.js.map",
+    "703.73940452.chunk.js.map": "/Hackathon_MoralisWeb3_GoogleCloud/static/js/703.73940452.chunk.js.map",
+    "513.8827faaf.chunk.js.map": "/Hackathon_MoralisWeb3_GoogleCloud/static/js/513.8827faaf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8389dcd3.css",
+    "static/js/main.9d70b305.js"
+  ]
+}
